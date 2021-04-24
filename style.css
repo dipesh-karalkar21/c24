@@ -1,0 +1,52 @@
+body{
+    background-image:url("coronavirus-2.jpeg");
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+    text-decoration: none;
+    padding: 50px;
+}
+ul li{
+    list-style: none;
+}
+ul li a:hover{
+    border-bottom: 10px solid yellow;
+    color: yellow;
+}
+.content h1{
+    font-size: 200px;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.flex-child{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+.flex-child h1{
+    font-size: 100px;
+}
+.flex-child p{
+    font-size: 100px;
+}
+.flex2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
